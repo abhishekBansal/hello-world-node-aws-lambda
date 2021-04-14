@@ -3,7 +3,7 @@ service: hello-world-node
 provider:
  name: aws
  runtime: nodejs12.x
- memorySize: 128
+ memorySize: 256
  timeout: 10
  stage: production
  region: eu-central-1
